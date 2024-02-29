@@ -354,4 +354,4 @@ MigrationBackup/
 .sonarlint
 *.ruleset
 
-build-and-analyze.ps1
+run.ps1
