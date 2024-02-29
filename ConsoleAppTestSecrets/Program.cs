@@ -14,7 +14,7 @@ namespace ConsoleAppTestSecrets
 
             IConfiguration config = builder.Build();
 
-            var batchSize = config["AutoNumberOptions: BatchSize"];
+            var batchSize = config["AutoNumberOptions:BatchSize"];
 
             Console.WriteLine($"Batch Size {batchSize}");
         }
