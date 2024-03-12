@@ -15,8 +15,10 @@ namespace ConsoleAppTestSecrets
             IConfiguration config = builder.Build();
 
             var batchSize = config["AutoNumberOptions: BatchSize"];
+            var sharedKeyCredential = config["AzureBlobStorageKey"];
 
             Console.WriteLine($"Batch Size {batchSize}");
+            Console.WriteLine($"key {sharedKeyCredential}");
         }
     }
 }
